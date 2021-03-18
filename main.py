@@ -78,11 +78,11 @@ def scientific():
     elif op == 'cos':
         print("cos(", a, ")", "=", math.cos(a))
         # tangent (Trigonometry)
-    #elif op == 'tan':
-    #    print("tan(", a, ")", "=", math.tan(a))
-    #    # ln
-    #elif op == 'ln':
-    #    print("ln(", a, ")", "=", math.log(a))
+    elif op == 'tan':
+        print("tan(", a, ")", "=", math.tan(a))
+        # ln
+    elif op == 'ln':
+        print("ln(", a, ")", "=", math.log(a))
 
     print("Choose a calculator")
     print("\t1. Basic Calculator")
